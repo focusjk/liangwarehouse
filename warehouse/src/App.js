@@ -1,27 +1,22 @@
 import React, { Component } from 'react';
+import Cart from './container/Cart';
+import Footer from './container/Footer';
+import Home from './container/Home';
 
 class App extends Component {
   render() {
     return (
       <div>
+		<Home />
+		
 
-        <nav className="navbar navbar-inverse">
-  			<div className="container-fluid">
-    			<div className="navbar-header">
-      				<a className="navbar-brand" href="#">WebSiteName</a>
-    			</div>
-    			
-    			<ul className="nav navbar-nav">
-      				<li className="active"><a href="#">Home</a></li>
-      				<li><a href="#">Page 1</a></li>
-      				<li><a href="#">Page 2</a></li>
-      				<li><a href="#">Page 3</a></li>
-    			</ul>
-  			</div>
-		</nav>
+		<Cart />
+       	
+		<Footer />
       </div>
     );
   }
 }
 
 export default App;
+
