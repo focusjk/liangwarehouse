@@ -1,24 +1,51 @@
 body {
   font-family: sans-serif;
 }
+.whole {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
 /****************home*******************/
 .home {
 	position: absolute;
-    top: 30%;
-    width: 100%;
+    /*top: 30%;*/
+    margin-top: 50px;
+    
 }
 .slogan {
 	font-size: 60px;
 	text-align: center;
 }
 .input-group {
-	margin: 0px 15px 0px 15px;
+	margin: 0px 5px 0px 5px;
+	width: 28%;
+	border-radius: 100px;
+	display: inline-flex;
+}
+.searchbtn {
+	margin: 0px 5px 0px 5px;
+	width: 10%;
+}
+.form-control {
+
 }
 
 .searchzone {
 	display: inline-flex;
 }
-
+/****************List1*******************/
+.list1 {
+	/*margin-top: 210px;*/
+	
+}
+.listbox {
+	border-style: 
+}
+.photo {
+	width: 100%;
+	height: 100px;
+}
 /****************Cart*******************/
 .btn-lg {
 	border-radius: 60px;
